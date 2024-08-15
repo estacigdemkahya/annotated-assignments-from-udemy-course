@@ -32,7 +32,29 @@ It is a collection of all the assignments done during the course.
 
 
 -  [(100+) Engin Demiroğ -  HTML5, CSS3, Bootstrap 4, JavaScript ES6+ ](https://www.udemy.com/share/1027oK3@OMt6SSVGZ6wxdQjSs8JDLZ3isEMZUmvYCa5swjDm15bKyGLS5iLcVUxhpeYaRfRBaA==/)
-
+  * Python
+  * Java
+  * Spring Boot
+  * C#
+  * SQL
+  * HTML5
+  * CSS3
+  * Bootstrap 4
+  * JavaScript ES6+
+  * TypeScript
+  * Angular
+  * React
+  * Node.js
+  * Flutter
+  * Dart
+  * Proje: Konuların bir projede uygulanması..
+  * Proje: Verilerle çalışmak
+  * Proje: CRUD Operasyonlarıyla Çalışmak
+  * Proje: Navigation mimarisiyle çalışmak
+  * Flutter: Whatsapp clone
+  * Flutter: e-ticaret app
+  * Flutter: Firebase ile çalışmak
+  * Ptyhon ile web programlama, Django
 
 
 
