@@ -30,7 +30,7 @@ It is a collection of all the assignments done during the course.
   * Proje: Backend ASP.Net Core MVC web Api
   * Proje: Frontend Angular
 
-![Minion](https://pin.it/5aRsds66q)
+![img](https://i.pinimg.com/originals/86/07/67/86076711de9002e2eab832a355115c43.gif)
 
 -  [(100+) Engin Demiroğ -  HTML5, CSS3, Bootstrap 4, JavaScript ES6+ ](https://www.udemy.com/share/1027oK3@OMt6SSVGZ6wxdQjSs8JDLZ3isEMZUmvYCa5swjDm15bKyGLS5iLcVUxhpeYaRfRBaA==/)
   * Python
