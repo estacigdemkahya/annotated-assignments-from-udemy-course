@@ -57,7 +57,7 @@ It is a collection of all the assignments done during the course.
   * Flutter: Firebase ile çalışmak
   * Ptyhon ile web programlama, Django
 
-
+![flower](https://i.pinimg.com/originals/1d/db/c6/1ddbc697df7708d211d11d2ff766e7bd.gif)
 
 
 
