@@ -8,14 +8,14 @@ Bu kod örneğinde, JavaScript'te `prototype` zincirini ve `toString` metodunun 
 ### Object Literal ve Yeni Obje Oluşturma
 
 ```javascript
-// const object = new Object(); // Object Literal
-// const object2 = new Object();
-// object.name = "Esta";
-// console.log(object);
+ const object = new Object(); // Object Literal
+ const object2 = new Object();
+ object.name = "Esta";
+ console.log(object);
 ```
 
 - **Object Literal**: Bu satırlar, `Object()` constructor fonksiyonunu kullanarak yeni objeler oluşturmayı gösterir. `object.name = "Esta";` satırı, objeye bir özellik ekler.
-- **Konsol Çıktısı**: `console.log(object);` ifadesi, oluşturulan objeyi konsola yazdırır. Yorum satırı olarak bırakılmıştır, bu yüzden çalışmaz.
+
 
 ### Constructor Fonksiyonu ve Prototype Zinciri
 
