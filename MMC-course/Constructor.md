@@ -7,7 +7,7 @@ Bu kod örneğinde, JavaScript'te constructor (yapıcı) fonksiyonu kullanarak n
 ### Global Scope ve `this` Anahtar Kelimesi
 
 ```javascript
-// console.log(this);   Global Scope
+console.log(this);  // Global Scope
 ```
 
 - Bu satırda `this` anahtar kelimesi global scope (küresel kapsam) içinde kullanılmıştır. Tarayıcıda çalıştırıldığında, `this` global `window` objesini referans eder.
@@ -15,7 +15,7 @@ Bu kod örneğinde, JavaScript'te constructor (yapıcı) fonksiyonu kullanarak n
 ### Object Literal ile Obje Tanımlama
 
 ```javascript
-/*
+
 const emp1 = { // Object Literal
     name: "Esta",
     age: 23,
@@ -31,7 +31,7 @@ const emp2 = {
 }
 
 console.log(emp1)
-*/
+
 ```
 
 - **Object Literal**: `emp1` ve `emp2` objeleri, object literal yöntemi ile tanımlanmıştır. Bu yöntemde, obje özellikleri `{}` süslü parantezler içinde tanımlanır.
