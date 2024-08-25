@@ -1,7 +1,7 @@
 
 ---
 
-# JavaScript - Prototype Zinciri ve `toString` Metodu
+# JavaScript - Prototype Zinciri ve `toString` Metodu (ES6 ÖNCESİ)
 
 Bu kod örneğinde, JavaScript'te `prototype` zincirini ve `toString` metodunun nereden geldiğini inceleyeceğiz.
 
@@ -109,3 +109,84 @@ set __proto__
 - **`__proto__` ve `prototype`**: `__proto__`, bir objenin `prototype` zincirindeki üst objeyi temsil eder. Her obje, `Object.prototype`'tan türediği için bu metotları miras alır.
 
 ---
+
+
+
+---
+
+# JavaScript Syntactic Sugar ve Prototypal Kalıtım (ES6)
+
+Bu kod örneğinde, JavaScript'te "Syntactic Sugar" ve "Prototypal Kalıtım" konularını ele alacağız. Aynı zamanda, ES6 ile birlikte gelen class yapılarını da inceleyeceğiz.
+
+## 1. Geleneksel Fonksiyon Kullanımı ile Nesne Oluşturma
+
+Öncelikle, JavaScript'te fonksiyon kullanarak bir nesne oluşturma yöntemini inceleyelim.
+
+```javascript
+function Employee(name, age, salary) {
+    this.name = name;   // Nesne özelliği olarak name (isim) atanıyor
+    this.age = age;     // Nesne özelliği olarak age (yaş) atanıyor
+    this.salary = salary; // Nesne özelliği olarak salary (maaş) atanıyor
+}
+```
+
+- **function Employee(name, age, salary):** Bu satır, `Employee` adında bir fonksiyon tanımlar. Bu fonksiyon, bir çalışanın ismini (`name`), yaşını (`age`) ve maaşını (`salary`) parametre olarak alır.
+- **this.name = name;** `this` anahtar kelimesi, fonksiyonun çağrıldığı nesneyi ifade eder. Bu satırda, fonksiyona geçilen `name` değeri, `Employee` nesnesinin `name` özelliğine atanır.
+- **this.age = age;** Aynı şekilde, `age` değeri `Employee` nesnesinin `age` özelliğine atanır.
+- **this.salary = salary;** `salary` değeri de `Employee` nesnesinin `salary` özelliğine atanır.
+
+### 2. Prototip Kullanarak Metot Tanımlama
+
+```javascript
+Employee.prototype.showInfos = function(){
+    console.log("isim:" + this.name + "age:" + this.age + "salary: " + this.salary);
+}
+```
+
+- **Employee.prototype.showInfos = function():** `showInfos` adında bir metot, `Employee` fonksiyonunun prototipine eklenir. Bu, tüm `Employee` nesnelerinin bu metoda erişebileceği anlamına gelir.
+- **console.log:** `console.log` komutu, ekrana yazı yazdırmak için kullanılır. Bu satırda, `Employee` nesnesinin `name`, `age` ve `salary` değerleri yazdırılır.
+
+### 3. Nesne Oluşturma ve Metot Çağrısı
+
+```javascript
+const emp = new Employee("Esta", 24, 5000);
+console.log(emp);
+```
+
+- **const emp = new Employee("Esta", 24, 5000);** `Employee` fonksiyonu kullanılarak yeni bir `Employee` nesnesi oluşturulur. Bu nesnenin `name` değeri `"Esta"`, `age` değeri `24` ve `salary` değeri `5000` olarak atanır.
+- **console.log(emp);** Oluşturulan `Employee` nesnesi (`emp`) konsola yazdırılır.
+
+## 4. ES6 Class Yapısı ile Aynı İşlevi Gerçekleştirme
+
+ES6 ile gelen `class` yapısını kullanarak yukarıdaki fonksiyon ve prototip yapısını daha okunabilir ve modern bir şekilde yazabiliriz.
+
+```javascript
+class Employee {
+    constructor(name, age, salary) {  // Constructor
+        this.name = name;   // name özelliği atanıyor
+        this.age = age;     // age özelliği atanıyor
+        this.salary = salary; // salary özelliği atanıyor
+    }    
+    showInfos() {
+        console.log("isim:" + this.name + "age:" + this.age + "salary:" + this.salary);
+    }
+}
+```
+
+- **class Employee:** `Employee` adında bir sınıf tanımlar.
+- **constructor(name, age, salary):** Sınıfın yapıcı metodudur. Bu metod, `name`, `age`, ve `salary` parametrelerini alır ve bunları sınıfın özelliklerine atar.
+- **showInfos():** Bu metot, sınıfın içinde tanımlanmış olup, `Employee` nesnesinin `name`, `age`, ve `salary` özelliklerini konsola yazdırır.
+
+### 5. Yeni Bir Nesne Oluşturma ve Metot Çağrısı
+
+```javascript
+const emp = new Employee("Esta", 24 , 5000);
+emp.showInfos();
+```
+
+- **const emp = new Employee("Esta", 24, 5000);** `Employee` sınıfı kullanılarak yeni bir nesne oluşturulur.
+- **emp.showInfos();** Oluşturulan nesnenin `showInfos` metodu çağrılır ve çalışan bilgileri konsola yazdırılır.
+
+---
+
+Bu şekilde, hem geleneksel fonksiyon tabanlı yapıyı hem de ES6 ile gelen class yapısını incelemiş olduk. İki yapı da aynı işlevselliği sağlar, ancak ES6 class yapısı daha modern ve okunabilir bir sözdizimi sunar.
