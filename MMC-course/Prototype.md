@@ -64,45 +64,7 @@ constructor: ƒ Employee(name, age)
 constructor
 : 
 ƒ Object()
-hasOwnProperty
-: 
-ƒ hasOwnProperty()
-isPrototypeOf
-: 
-ƒ isPrototypeOf()
-propertyIsEnumerable
-: 
-ƒ propertyIsEnumerable()
-toLocaleString
-: 
-ƒ toLocaleString()
-toString
-: 
-ƒ toString()
-valueOf
-: 
-ƒ valueOf()
-__defineGetter__
-: 
-ƒ __defineGetter__()
-__defineSetter__
-: 
-ƒ __defineSetter__()
-__lookupGetter__
-: 
-ƒ __lookupGetter__()
-__lookupSetter__
-: 
-ƒ __lookupSetter__()
-__proto__
-: 
-(...)
-get __proto__
-: 
-ƒ __proto__()
-set __proto__
-: 
-ƒ __proto__() */
+ */
 ```
 
 - **Prototype Zinciri Çıktısı**: Bu çıktı, `emp1` objesinin `[[Prototype]]` zincirinde neler bulunduğunu gösterir. `Employee` constructor'ı, `Object.prototype`'tan türemiştir. `Object.prototype`'ta `toString`, `hasOwnProperty` gibi birçok yerleşik metot bulunur.
