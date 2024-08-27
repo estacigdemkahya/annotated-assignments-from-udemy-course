@@ -1,5 +1,5 @@
 
-```
+
 # Film Projesi Açıklama Dosyası
 
 Bu projede, JavaScript kullanarak bir film ekleme, listeleme ve silme uygulaması oluşturduk. Projede `film.js`, `project.js`, `storage.js`, ve `ui.js` adında dört ana JavaScript dosyası bulunmaktadır. Bu dosyaların her birinin ne işe yaradığını ve nasıl çalıştığını aşağıda detaylı bir şekilde açıklıyorum.
@@ -16,7 +16,7 @@ function Film(title, director, url){
     this.director = director;
     this.url = url;
 }
-```
+
 
 - **Film(title, director, url)**: Bu bir constructor fonksiyonudur. Bu fonksiyon ile her yeni film için bir `Film` objesi oluşturulur. Obje, `title` (film adı), `director` (yönetmen) ve `url` (film afişinin URL'si) özelliklerine sahiptir.
 
