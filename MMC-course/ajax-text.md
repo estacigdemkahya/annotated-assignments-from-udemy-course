@@ -82,8 +82,8 @@ document.getElementById("btn").addEventListener("click", function(){
 
 ### Neden Fetch API?
 
-- **Daha Okunabilir:** Fetch API, söz dizimi olarak daha basit ve anlaşılırdır.
-- **Promise Tabanlı:** Fetch, Promise tabanlı bir yapı kullanır, bu da hata yönetimini ve işlem akışını daha kolay hale getirir.
-- **Gelişmiş Hata Yönetimi:** Fetch API, hata yönetimi konusunda daha esnek ve gelişmiş yöntemler sunar.
+-  Fetch API, söz dizimi olarak daha basit ve anlaşılırdır.
+-  Fetch, Promise tabanlı bir yapı kullanır, bu da hata yönetimini ve işlem akışını daha kolay hale getirir.
+-  Fetch API, hata yönetimi konusunda daha esnek ve gelişmiş yöntemler sunar.
 
 Yeni yaklaşım, daha modern ve bakımının daha kolay olması nedeniyle tercih edilir.
