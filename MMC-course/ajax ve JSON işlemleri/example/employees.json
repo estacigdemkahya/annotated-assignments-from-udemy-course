@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Çiğdem Kahya",
+        "department":"Bilişim",
+        "salary":3500
+    },
+    {
+        "name":"Semih Elvan",
+        "department":"Bilişim",
+        "salary":4000
+    },
+    {
+        "name":"Elvin Elvan",
+        "department":"Bilişim",
+        "salary":5000
+    }
+]
