@@ -43,7 +43,6 @@ Bu süreç bir "üretim bandı" gibi düşünülebilir. Şablon olan `Person` s�
 - Fabrika her yeni nesne oluşturduğunda, `constructor` ile içindeki özellikleri dolduruyor (name, age).
 - Çıkan ürünler, `person1`, `person2` gibi farklı isim ve yaşlara sahip insanlar.
 
-Bu görseli oluşturursak, bir fabrika ve çıkan farklı nesneleri simgelerle gösterebiliriz. Dilersen bu örneği bir grafik ya da animasyon gibi somutlaştırabiliriz!
-```
+
 
 
