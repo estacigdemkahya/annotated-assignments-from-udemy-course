@@ -114,5 +114,3 @@ Bu kod, bir API'den döviz kuru verilerini çeker ve kullanıcıdan alınan döv
    
 Bu sayede kullanıcı, dövizden Türk Lirasına basit bir çeviri yapabilir.
 ```
-
----
